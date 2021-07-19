@@ -1,0 +1,92 @@
+html, body{
+    font-family: 'Roboto', sans-serif !important;
+    height: 100%;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+
+body{
+    
+    font-size: 15px;
+    background: #dbdbdb;
+    line-height: 1.64;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.white{
+    background: #FFFFFF;
+    padding: 0;
+    margin: 0;
+}
+
+.jumbotron{
+    background: no-repeat center fixed url("https://images.unsplash.com/photo-1622495548018-4fc6f78d7bef?ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80");
+    background-size: cover;
+    height: 100vh;
+    color: white;
+    margin-bottom: 0;
+
+}
+
+
+.jumbotron .container h1{
+    font-size: 7rem;
+    font-weight: 700;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #FFFFFF;
+    border-bottom-color: rgba(255,255,255,0.35);
+    display: inline-block;
+    
+}
+
+
+
+.jumbotron p{
+    font-size: 3rem;
+}
+
+.jumbotron .container{
+    position: relative;
+    top: 28%;
+    z-index: 4;
+    text-align: center;
+
+}
+
+.jumbotron .overlay{
+    background-color: #D12531;
+    position:absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    opacity: 0.4;
+    z-index: 2;
+}
+
+@media only screen and (max-width: 480px){
+    
+    #landing h1{
+        font-size: 3rem;
+    }
+
+    #landing p{
+        font-size: 1.5rem;
+    }
+
+    .heading{
+        font-size: 4.5rem;
+    }
+
+    h3{
+        font-size: 2.5rem;
+    }
+
+    #projects figure{
+        width: 300px;
+        height: 300px;
+    }
+
+
+}
